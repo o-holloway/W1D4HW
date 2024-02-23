@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
+
 <body class="bg-body-secondary">
     <div class="container">
         <div class="row bg-white pb-5">
@@ -42,9 +44,9 @@
                     <div class="navbar-nav">
                         <form class="navbar-form navbar-left" action="#">
                             <div class="form-group">
-                              <input type="text" class="form-control" placeholder="Search">
+                                <input type="text" class="form-control" placeholder="Search">
                             </div>
-                          </form>
+                        </form>
                     </div>
                 </div>
             </nav>
@@ -55,33 +57,154 @@
                     <div class="card-body">
                         <div id="carousel" class="carousel slide">
                             <div class="carousel-inner">
-                              <div class="carousel-item active fw-bold">
-                                <a href="#"><img src="https://picsum.photos/id/60/800/400" alt="assorted electronics" width="800" height="400"><text x="50%" y="50%" fill="#555" dy=".3em">Tablets, Monitors, Phones - From $99!</text></a>
-                              </div>
-                              <div class="carousel-item fw-bold">
-                                <a href="#"><img src="https://picsum.photos/id/96/800/400" alt="game controller" width="800" height="400"><text x="50%" y="50%" fill="#444" dy=".3em">Get in the Game! PS5/Xbox Controllers - Only $49</text></a>
-                              </div>
-                              <div class="carousel-item fw-bold">
-                                <a href="#"><img src="https://picsum.photos/id/119/800/400" alt="laptop" width="800" height="400"><text x="50%" y="50%" fill="#444" dy=".3em">Need a New Laptop? Macbook Air From $699</text></a>
-                              </div>
+                                <div class="carousel-item active fw-bold">
+                                    <a href="#"><img src="https://picsum.photos/id/60/800/400"
+                                            alt="assorted electronics" width="800" height="400"><text x="50%" y="50%"
+                                            fill="#555" dy=".3em">Tablets, Monitors, Phones - From $99!</text></a>
+                                </div>
+                                <div class="carousel-item fw-bold">
+                                    <a href="#"><img src="https://picsum.photos/id/96/800/400" alt="game controller"
+                                            width="800" height="400"><text x="50%" y="50%" fill="#444" dy=".3em">Get in
+                                            the Game! PS5/Xbox Controllers - Only $49</text></a>
+                                </div>
+                                <div class="carousel-item fw-bold">
+                                    <a href="#"><img src="https://picsum.photos/id/119/800/400" alt="laptop" width="800"
+                                            height="400"><text x="50%" y="50%" fill="#444" dy=".3em">Need a New Laptop?
+                                            Macbook Air From $699</text></a>
+                                </div>
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Previous</span>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
                             </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Next</span>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
                             </button>
-                          </div>
+                        </div>
                     </div>
                 </div>
+
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <div class="accordion" id="accordionCommerce">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Mobile Devices
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionCommerce">
+                                    <div class="accordion-body">
+                                        <div class="card mb-3" style="max-width: 540px;">
+                                            <div class="row g-0">
+                                                <div class="col-md-4">
+                                                    <img class="bd-placeholder-img img-fluid rounded-start" width="100%"
+                                                        height="250" src="./media/mobile.jpg" alt="Mobile Device">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <text class="card-title fs-5">Apple iPhone 12 Pro</text>
+                                                        <p class="card-text">Apple iPhone 12 Pro Unlocked 5G - Space
+                                                            Gray (Refurbished) Smartphone; GSM/CDMA; 6 GB RAM/128 GB
+                                                            Storage;...</p>
+                                                        <del class="text-danger">$499.99</del>
+                                                        <p class="card-text fw-bold text-primary">$449.99</p>
+                                                        <button type="submit" class="btn btn-warning">Add to
+                                                            Cart</button>
+                                                        <p class="card-text"><small class="text-body-secondary">Limit 2;
+                                                                While supplies last</small></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Monitors
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionCommerce">
+                                    <div class="accordion-body">
+                                        <div class="card mb-3" style="max-width: 540px;">
+                                            <div class="row g-0">
+                                                <div class="col-md-4">
+                                                    <img class="bd-placeholder-img img-fluid rounded-start" width="100%"
+                                                        height="250" src="./media/monitor.jpg" alt="Monitor">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <text class="card-title fs-5">ASUS TUF Gaming Monitor</text>
+                                                        <p class="card-text">ASUS TUF Gaming VG279QR 26.95" Full HD (1920 x 1080) 165Hz Gaming Monitor Platinum Collection; NVIDIA...</p>
+                                                        <del class="text-danger">$219.99</del>
+                                                        <p class="card-text fw-bold text-primary">$169.99</p>
+                                                        <button type="submit" class="btn btn-warning">Add to
+                                                            Cart</button>
+                                                        <p class="card-text"><small class="text-body-secondary">While supplies last</small></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Desktops
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionCommerce">
+                                    <div class="accordion-body">
+                                        <div class="card mb-3" style="max-width: 540px;">
+                                            <div class="row g-0">
+                                                <div class="col-md-4">
+                                                    <img class="bd-placeholder-img img-fluid rounded-start" width="100%"
+                                                        height="250" src="./media/desktop.jpg" alt="Desktop">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <text class="card-title fs-5">Dell OptiPlex 7410</text>
+                                                        <p class="card-text">Dell OptiPlex 7410 24" All-in-One Desktop Computer; 23.8" Full HD Display; Intel Core i5 13th Gen 13500T...</p>
+                                                        <del class="text-danger">$499.99</del>
+                                                        <p class="card-text fw-bold text-primary">$449.99</p>
+                                                        <button type="submit" class="btn btn-warning">Add to
+                                                            Cart</button>
+                                                        <p class="card-text"><small class="text-body-secondary">While supplies last</small></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="card mb-3">
                     <div class="card-body">
                         <text class="card-title fw-bold fs-5">Old PC Got You Down? PC Super Center To The Rescue!</text>
                         <img src="./media/grayscale_computer_desktop.jpg" height=400px class='card-img-top'
                             alt="mobile phone">
-                        <p class="card-text">Building a computer yourself can be daunting. There are many parts and mishandling them can lead to a bad outcome. Our expert technicians have decades of experience building computers of any type - custom built PCs can be tailored to suit your exact specifications. Whether you're building a top of the line water-cooled gaming rig, a work horse photo or video editing work station, or a machine that can handle your professional needs, our techs can craft the build of your dreams.</p>
+                        <p class="card-text">Building a computer yourself can be daunting. There are many parts and
+                            mishandling them can lead to a bad outcome. Our expert technicians have decades of
+                            experience building computers of any type - custom built PCs can be tailored to suit your
+                            exact specifications. Whether you're building a top of the line water-cooled gaming rig, a
+                            work horse photo or video editing work station, or a machine that can handle your
+                            professional needs, our techs can craft the build of your dreams.</p>
                     </div>
                 </div>
             </div>
@@ -90,66 +213,72 @@
 
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row g-0">
-                      <div class="col-md-4">
-                        <img class="bd-placeholder-img img-fluid rounded-start" width="100%" height="250" src="./media/psu.jpg" alt="Power Supply">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <text class="card-title fs-5">PC Parts Top Deal</text>
-                          <p class="card-text">ASUS TUF Gaming 850 Watt 80 Plus Gold ATX Fully Modular Power Supply - ATX 3.0 Compatible</p>
-                          <del class="text-danger">$149.99</del><p class="card-text fw-bold text-primary">$119.99</p>
-                          <button type="submit" class="btn btn-warning">Add to Cart</button>
-                          <p class="card-text"><small class="text-body-secondary">While supplies last</small></p>
+                        <div class="col-md-4">
+                            <img class="bd-placeholder-img img-fluid rounded-start" width="100%" height="250"
+                                src="./media/psu.jpg" alt="Power Supply">
                         </div>
-                      </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <text class="card-title fs-5">PC Parts Top Deal</text>
+                                <p class="card-text">ASUS TUF Gaming 850 Watt 80 Plus Gold ATX Fully Modular Power
+                                    Supply - ATX 3.0 Compatible</p>
+                                <del class="text-danger">$149.99</del>
+                                <p class="card-text fw-bold text-primary">$119.99</p>
+                                <button type="submit" class="btn btn-warning">Add to Cart</button>
+                                <p class="card-text"><small class="text-body-secondary">While supplies last</small></p>
+                            </div>
+                        </div>
                     </div>
-                  </div>
+                </div>
 
-                  <div class="card mb-3" style="max-width: 540px;">
+                <div class="card mb-3" style="max-width: 540px;">
                     <div class="row g-0">
-                      <div class="col-md-4">
-                        <img class="bd-placeholder-img img-fluid rounded-start" width="100%" height="250" src="./media/ssd.jpg" alt="SSD">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <text class="card-title fs-5">SSDS Deal</text>
-                          <p class="card-text">Inland TN470 1TB SSD 3D TLC NAND PCIe Gen 4 x4 NVMe M.2 2280 Internal Solid State Drive</p>
-                          <del class="text-danger">$84.99</del><p class="card-text fw-bold text-primary">$64.99</p>
-                          <button type="submit" class="btn btn-warning">Add to Cart</button>
-                          <p class="card-text"><small class="text-body-secondary">While supplies last</small></p>
+                        <div class="col-md-4">
+                            <img class="bd-placeholder-img img-fluid rounded-start" width="100%" height="250"
+                                src="./media/ssd.jpg" alt="SSD">
                         </div>
-                      </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <text class="card-title fs-5">SSDS Deal</text>
+                                <p class="card-text">Inland TN470 1TB SSD 3D TLC NAND PCIe Gen 4 x4 NVMe M.2 2280
+                                    Internal Solid State Drive</p>
+                                <del class="text-danger">$84.99</del>
+                                <p class="card-text fw-bold text-primary">$64.99</p>
+                                <button type="submit" class="btn btn-warning">Add to Cart</button>
+                                <p class="card-text"><small class="text-body-secondary">Limit 3; While supplies
+                                        last</small></p>
+                            </div>
+                        </div>
                     </div>
-                  </div>
+                </div>
 
-                  <div class="card mb-3" style="max-width: 540px;">
+                <div class="card mb-3" style="max-width: 540px;">
                     <div class="row g-0">
-                      <div class="col-md-4">
-                        <img class="bd-placeholder-img img-fluid rounded-start" width="100%" height="250" src="./media/laptop.jpg" alt="Laptop">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <text class="card-title fs-5">Laptops Deal</text>
-                          <p class="card-text">Microsoft Surface Laptop 5 13.5" Intel Evo Platform Computer - Platinum; Intel Core i5 12th Gen 1235U 1.3GHz </p>
-                          <p class="card-text fw-bold text-primary">$999.99</p>
-                          <button type="submit" class="btn btn-warning">Add to Cart</button>
-                          <p class="card-text"><small class="text-body-secondary">While supplies last</small></p>
+                        <div class="col-md-4">
+                            <img class="bd-placeholder-img img-fluid rounded-start" width="100%" height="250"
+                                src="./media/laptop.jpg" alt="Laptop">
                         </div>
-                      </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <text class="card-title fs-5">Laptops Deal</text>
+                                <p class="card-text">Microsoft Surface Laptop 5 13.5" Intel Evo Platform Computer -
+                                    Platinum; Intel Core i5 12th Gen 1235U 1.3GHz </p>
+                                <p class="card-text fw-bold text-primary">$999.99</p>
+                                <button type="submit" class="btn btn-warning">Add to Cart</button>
+                                <p class="card-text"><small class="text-body-secondary">While supplies last</small></p>
+                            </div>
+                        </div>
                     </div>
-                  </div>
+                </div>
 
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="card-body">
                         <text class="card-title my-3 fs-5">Popular Categories</text>
-                        <a href="#"><img src="./media/gpu.jpg" class='card-img'
-                            alt="Graphics Cards"></a>
+                        <a href="#"><img src="./media/gpu.jpg" class='card-img' alt="Graphics Cards"></a>
                         <p class="card-text text-center fw-bold">Graphics Cards</p>
-                        <a href="#"><img src="./media/mem.jpg" class='card-img'
-                            alt="Memory"></a>
+                        <a href="#"><img src="./media/mem.jpg" class='card-img' alt="Memory"></a>
                         <p class="card-text text-center fw-bold">Memory</p>
-                        <a href="#"><img src="./media/motherboard.jpg" class='card-img'
-                            alt="Motherboards"></a>
+                        <a href="#"><img src="./media/motherboard.jpg" class='card-img' alt="Motherboards"></a>
                         <p class="card-text text-center fw-bold">Motherboards</p>
                     </div>
                 </div>
@@ -157,7 +286,8 @@
                 <div class="card mb-3">
                     <div class="card-body">
                         <text class="card-title fs-5">Sign up for Special Offers!</text>
-                        <p class="card-text">As an email subscriber, you'll have premier access to our best offers, exclusive deals and more.</p>
+                        <p class="card-text">As an email subscriber, you'll have premier access to our best offers,
+                            exclusive deals and more.</p>
                         <button type="submit" class="btn btn-primary">Sign Me Up</button>
                     </div>
                 </div>
