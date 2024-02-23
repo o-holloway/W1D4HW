@@ -7,37 +7,85 @@
     <title>E-Commerce Demo</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.3/components/navbars/navbar-1/assets/css/navbar-1.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body class="bg-body-secondary">
     <div class="container">
-        <div class="row bg-white pb-5">
+        <div class="row bg-white pb-1">
             <div class="col">
-                <text class="text-center text-uppercase fw-bold fs-1">PC Super Center</text>
+                <text class="fs-1">&#128717;</text></text><a href="#" class="text-center text-decoration-none text-uppercase fw-bold fs-1">PC Super Center</a>
             </div>
         </div>
         <div class="row">
-            <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+            <nav class="navbar navbar-expand-lg bg-dark bsb-navbar bsb-navbar-hover bsb-navbar-caret" data-bs-theme="dark">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Front Page</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
                         <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Products</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle px-4" aria-current="page" href="#" role="button" data-bs-toggle="dropdown">Products</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Top Deals</a></li>
+                                    <li><a class="dropdown-item" href="#">PC Parts</a></li>
+                                    <li><a class="dropdown-item" href="#">PC Builders</a></li>
+                                    <li><a class="dropdown-item" href="#">Computers</a></li>
+                                    <li><a class="dropdown-item" href="#">Apple</a></li>
+                                    <li><a class="dropdown-item" href="#">Electronics</a></li>
+                                    <li><a class="dropdown-item" href="#">Maker/STEM</a></li>
+                                    <li><a class="dropdown-item" href="#">Networking</a></li>
+                                    <li><a class="dropdown-item" href="#">Accessories</a></li>
+                                    <li><a class="dropdown-item" href="#">Gaming & Software</a></li>
+                                  </ul>                        
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Build-A-PC</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle px-4" aria-current="page" href="#" role="button" data-bs-toggle="dropdown">Build-A-PC</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Processors/CPUs</a></li>
+                                    <li><a class="dropdown-item" href="#">Graphics Cards</a></li>
+                                    <li><a class="dropdown-item" href="#">Motherboards</a></li>
+                                    <li><a class="dropdown-item" href="#">Drives & Storage</a></li>
+                                    <li><a class="dropdown-item" href="#">Computer Memory</a></li>
+                                    <li><a class="dropdown-item" href="#">Computer Cases</a></li>
+                                    <li><a class="dropdown-item" href="#">Power Supplies</a></li>
+                                    <li><a class="dropdown-item" href="#">Air & Water Cooling</a></li>
+                                    <li><a class="dropdown-item" href="#">Custom PC Builder</a></li>
+                                  </ul>                        
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Services</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle px-4" aria-current="page" href="#" role="button" data-bs-toggle="dropdown">Services</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Schedule Service</a></li>
+                                    <li><a class="dropdown-item" href="#">All Service and Repair</a></li>
+                                    <li><a class="dropdown-item" href="#">Computer Repair</a></li>
+                                    <li><a class="dropdown-item" href="#">Apple Repair</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop Battery Replacement</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop Screen Replacement</a></li>
+                                    <li><a class="dropdown-item" href="#">GPU Trade-In Program</a></li>
+                                    <li><a class="dropdown-item" href="#">Virus Removal</a></li>
+                                    <li><a class="dropdown-item" href="#">Data Recovery</a></li>
+                                    <li><a class="dropdown-item" href="#">Custom Built PCs</a></li>
+                                  </ul>                        
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Community</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle px-4" aria-current="page" href="#" role="button" data-bs-toggle="dropdown">Community</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Community Forums</a></li>
+                                    <li><a class="dropdown-item" href="#">Build Showcase</a></li>
+                                    <li><a class="dropdown-item" href="#">Reviews and Buying Guides</a></li>
+                                    <li><a class="dropdown-item" href="#">Support</a></li>
+                                    <li><a class="dropdown-item" href="#">PC Build Guides</a></li>
+                                    <li><a class="dropdown-item" href="#">Custom PC Builder</a></li>
+                                    <li><a class="dropdown-item" href="#">Build Dashboard</a></li>
+                                    <li><a class="dropdown-item" href="#">Custom Build Services</a></li>
+                                    <li><a class="dropdown-item" href="#">Help Picking Parts</a></li>
+                                  </ul>                        
                             </li>
                         </ul>
                     </div>
@@ -112,7 +160,7 @@
                                                         <p class="card-text">Apple iPhone 12 Pro Unlocked 5G - Space
                                                             Gray (Refurbished) Smartphone; GSM/CDMA; 6 GB RAM/128 GB
                                                             Storage;...</p>
-                                                        <del class="text-danger">$499.99</del>
+                                                        <text class="text-danger text-decoration-line-through">$499.99</text>
                                                         <p class="card-text fw-bold text-primary">$449.99</p>
                                                         <button type="submit" class="btn btn-warning">Add to
                                                             Cart</button>
@@ -145,7 +193,7 @@
                                                     <div class="card-body">
                                                         <text class="card-title fs-5">ASUS TUF Gaming Monitor</text>
                                                         <p class="card-text">ASUS TUF Gaming VG279QR 26.95" Full HD (1920 x 1080) 165Hz Gaming Monitor Platinum Collection; NVIDIA...</p>
-                                                        <del class="text-danger">$219.99</del>
+                                                        <text class="text-danger text-decoration-line-through">$219.99</text>
                                                         <p class="card-text fw-bold text-primary">$169.99</p>
                                                         <button type="submit" class="btn btn-warning">Add to
                                                             Cart</button>
@@ -178,7 +226,7 @@
                                                     <div class="card-body">
                                                         <text class="card-title fs-5">Dell OptiPlex 7410</text>
                                                         <p class="card-text">Dell OptiPlex 7410 24" All-in-One Desktop Computer; 23.8" Full HD Display; Intel Core i5 13th Gen 13500T...</p>
-                                                        <del class="text-danger">$499.99</del>
+                                                        <text class="text-danger text-decoration-line-through">$499.99</text>
                                                         <p class="card-text fw-bold text-primary">$449.99</p>
                                                         <button type="submit" class="btn btn-warning">Add to
                                                             Cart</button>
@@ -222,7 +270,7 @@
                                 <text class="card-title fs-5">PC Parts Top Deal</text>
                                 <p class="card-text">ASUS TUF Gaming 850 Watt 80 Plus Gold ATX Fully Modular Power
                                     Supply - ATX 3.0 Compatible</p>
-                                <del class="text-danger">$149.99</del>
+                                <text class="text-danger text-decoration-line-through">$149.99</text>
                                 <p class="card-text fw-bold text-primary">$119.99</p>
                                 <button type="submit" class="btn btn-warning">Add to Cart</button>
                                 <p class="card-text"><small class="text-body-secondary">While supplies last</small></p>
@@ -242,7 +290,7 @@
                                 <text class="card-title fs-5">SSDS Deal</text>
                                 <p class="card-text">Inland TN470 1TB SSD 3D TLC NAND PCIe Gen 4 x4 NVMe M.2 2280
                                     Internal Solid State Drive</p>
-                                <del class="text-danger">$84.99</del>
+                                <text class="text-danger text-decoration-line-through">$84.99</text>
                                 <p class="card-text fw-bold text-primary">$64.99</p>
                                 <button type="submit" class="btn btn-warning">Add to Cart</button>
                                 <p class="card-text"><small class="text-body-secondary">Limit 3; While supplies
