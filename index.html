@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Commerce Demo</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
@@ -55,14 +55,14 @@
                     <div class="card-body">
                         <div id="carousel" class="carousel slide">
                             <div class="carousel-inner">
-                              <div class="carousel-item active">
-                                <img src="https://picsum.photos/id/60/800/400" alt="assorted electronics" width="800" height="400"><text x="50%" y="50%" fill="#555" dy=".3em"><b>Tablets, Monitors, Phones - From $99!</b></text>
+                              <div class="carousel-item active fw-bold">
+                                <img src="https://picsum.photos/id/60/800/400" alt="assorted electronics" width="800" height="400"><text x="50%" y="50%" fill="#555" dy=".3em">Tablets, Monitors, Phones - From $99!</text>
                               </div>
-                              <div class="carousel-item">
-                                <img src="https://picsum.photos/id/96/800/400" alt="game controller" width="800" height="400"><text x="50%" y="50%" fill="#444" dy=".3em"><b>Get in the Game! PS5/Xbox Controllers - Only $49</b></text>
+                              <div class="carousel-item fw-bold">
+                                <img src="https://picsum.photos/id/96/800/400" alt="game controller" width="800" height="400"><text x="50%" y="50%" fill="#444" dy=".3em">Get in the Game! PS5/Xbox Controllers - Only $49</text>
                               </div>
-                              <div class="carousel-item">
-                                <img src="https://picsum.photos/id/119/800/400" alt="laptop" width="800" height="400"><text x="50%" y="50%" fill="#444" dy=".3em"><b>Need a New Laptop? Macbook Air From $699</b></text>
+                              <div class="carousel-item fw-bold">
+                                <img src="https://picsum.photos/id/119/800/400" alt="laptop" width="800" height="400"><text x="50%" y="50%" fill="#444" dy=".3em">Need a New Laptop? Macbook Air From $699</text>
                               </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
@@ -78,7 +78,7 @@
                 </div>
                 <div class="card mb-3">
                     <div class="card-body">
-                        <h5 class="card-title"><b>Old PC Got You Down? PC Super Center To The Rescue!</b></h5>
+                        <text class="card-title fw-bold fs-5">Old PC Got You Down? PC Super Center To The Rescue!</text>
                         <img src="./media/grayscale_computer_desktop.jpg" height=400px class='card-img-top'
                             alt="mobile phone">
                         <p class="card-text">Building a computer yourself can be daunting. There are many parts and mishandling them can lead to a bad outcome. Our expert technicians have decades of experience building computers of any type - custom built PCs can be tailored to suit your exact specifications. Whether you're building a top of the line water-cooled gaming rig, a work horse photo or video editing work station, or a machine that can handle your professional needs, our techs can craft the build of your dreams.</p>
@@ -87,18 +87,26 @@
             </div>
 
             <div class="col-12  col-lg-4 order-0 order-lg-1">
-                <div class="card mb-3">
-                    <div class="card-body">
-                        <h5 class="card-title">Me</h5>
-                        <img src="https://picsum.photos/1000/200?random=3" class='card-img'
-                            alt="">
-                        <p class="card-text">Demo text</p>
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img class="bd-placeholder-img img-fluid rounded-start" width="100%" height="250" src="./media/psu.jpg">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <text class="card-title fs-5">PC Parts Top Deal</text>
+                          <p class="card-text">ASUS TUF Gaming 850 Watt 80 Plus Gold ATX Fully Modular Power Supply - ATX 3.0 Compatible</p>
+                          <p class="card-text"><b>$119</b></p>
+                          <button type="submit" class="btn btn-warning">Add to Cart</button>
+                          <p class="card-text"><small class="text-body-secondary">While supplies last</small></p>
+                        </div>
+                      </div>
                     </div>
-                </div>
+                  </div>
 
                 <div class="card mb-3 ">
                     <div class="card-body">
-                        <h5 class="card-title my-3">Popular Categories</h5>
+                        <text class="card-title my-3 fs-5">Popular Categories</text>
                         <img src="https://picsum.photos/1000/200?random=4" class='card-img'
                             alt="">
                         <img src="https://picsum.photos/1000/200?random=5" class='card-img'
@@ -111,9 +119,9 @@
 
                 <div class="card mb-3">
                     <div class="card-body">
-                        <h5 class="card-title">Sign up for Special Offers!</h5>
+                        <text class="card-title fs-5">Sign up for Special Offers!</text>
                         <p class="card-text">As an email subscriber, you'll have premier access to our best offers, exclusive deals and more.</p>
-                        <button>Sign Me Up</button>
+                        <button type="submit" class="btn btn-primary">Sign Me Up</button>
                     </div>
                 </div>
             </div>
